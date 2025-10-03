@@ -32,8 +32,18 @@ int main(int argc, char** argv) {
         auto [activity, duration_intr] = parse_trace(trace);
 
         /******************ADD YOUR SIMULATION CODE HERE*************************/
-        if (activity == "CPU"){
-            execution += 
+        if (activity == "CPU") {
+            execution +=  std::to_string(curr_time) + "," + std::to_string(duration_intr) + ", CPU burst\n";
+            curr_time += duration_intr;
+        }
+
+        else if (activity == "SYSCALL") {
+            auto[execution_hist, time_curr]= intr_boilerplate(curr_time, duration_intr, context, vectors);
+            execution += execution_hist;
+            curr_time = time_curr;
+        }
+        
+        else if (activity == "END_IO") {
         }
 
 
