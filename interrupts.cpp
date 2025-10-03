@@ -19,7 +19,10 @@ int main(int argc, char** argv) {
     std::string execution;  //!< string to accumulate the execution output
 
     /******************ADD YOUR VARIABLES HERE*************************/
-
+    const int context = 10;
+    int curr_time = 0;
+    std::string address;
+    std::string duration;
 
 
     /******************************************************************/
@@ -29,7 +32,9 @@ int main(int argc, char** argv) {
         auto [activity, duration_intr] = parse_trace(trace);
 
         /******************ADD YOUR SIMULATION CODE HERE*************************/
-
+        if (activity == "CPU"){
+            execution += 
+        }
 
 
         /************************************************************************/
