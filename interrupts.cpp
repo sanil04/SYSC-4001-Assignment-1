@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
 
         /******************ADD YOUR SIMULATION CODE HERE*************************/
         if (activity == "CPU") {
-            execution +=  std::to_string(curr_time) + "," + std::to_string(duration_intr) + ", CPU burst\n";
+            execution +=  std::to_string(curr_time) + ", " + std::to_string(duration_intr) + ", CPU burst\n";
             curr_time += duration_intr;
         }
 
@@ -44,9 +44,11 @@ int main(int argc, char** argv) {
         }
         
         else if (activity == "END_IO") {
-            auto[execution_hist, time_curr]= intr_boilerplate(curr_time, duration_intr, context, vectors);
-            execution += execution_hist;
-            curr_time = time_curr;
+            
+            execution +=  std::to_string(curr_time) + ", " + std::to_string(duration_intr) + ", IRET\n";
+            curr_time += duration_intr;
+            execution +=  std::to_string(curr_time) + ", " + std::to_string(1) + ", END IO\n";
+            curr_time += 1;
   
 
         }
