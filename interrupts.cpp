@@ -5,7 +5,7 @@
  *
  */
 
-#include<interrupts.hpp>
+#include "interrupts.hpp"
 
 int main(int argc, char** argv) {
 
@@ -44,6 +44,11 @@ int main(int argc, char** argv) {
         }
         
         else if (activity == "END_IO") {
+            auto[execution_hist, time_curr]= intr_boilerplate(curr_time, duration_intr, context, vectors);
+            execution += execution_hist;
+            curr_time = time_curr;
+  
+
         }
 
 
