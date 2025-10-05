@@ -2,7 +2,9 @@
  *
  * @file interrupts.cpp
  * @author Sasisekhar Govind
- *
+ * 
+ * @author Mircea Preotesou
+ * @author Sanil Srivastava
  */
 
 #include "interrupts.hpp"
@@ -19,7 +21,9 @@ int main(int argc, char** argv) {
     std::string execution;  //!< string to accumulate the execution output
 
     /******************ADD YOUR VARIABLES HERE*************************/
-    const int context = 10;
+    const int CONTEXT = 10;
+    const int ISR_TIME = 40;
+    const int IRET_TIME = 1;
     int curr_time = 0;
     std::string address;
     std::string duration;
@@ -38,19 +42,37 @@ int main(int argc, char** argv) {
         }
 
         else if (activity == "SYSCALL") {
-            auto[execution_hist, time_curr]= intr_boilerplate(curr_time, duration_intr, context, vectors);
+            auto[execution_hist, time] = intr_boilerplate(curr_time, duration_intr, CONTEXT, vectors);
             execution += execution_hist;
-            curr_time = time_curr;
+            curr_time = time;
+
+            execution += std::to_string(curr_time) + ", "  + std::to_string(ISR_TIME)  + ", SYSCAll: calling device driver\n"; 
+            curr_time += ISR_TIME;
+
+            execution += std::to_string(curr_time) + ", "  + std::to_string(ISR_TIME)  + ", transfering data\n"; 
+            curr_time += ISR_TIME;
+            if ((delays[duration_intr] - ISR_TIME*2 - IRET_TIME) >= 0){
+                execution += std::to_string(curr_time) + ", "  + std::to_string(delays[duration_intr] - ISR_TIME*2 - IRET_TIME)  + ", checking for errors\n"; 
+                curr_time += delays[duration_intr] - ISR_TIME*2 - IRET_TIME;
+            }
+            execution += std::to_string(curr_time) + ", "  + std::to_string(IRET_TIME)  + ",  IRET \n"; 
+            curr_time += IRET_TIME;
+
         }
         
         else if (activity == "END_IO") {
             
-            execution +=  std::to_string(curr_time) + ", " + std::to_string(duration_intr) + ", IRET\n";
-            curr_time += duration_intr;
-            execution +=  std::to_string(curr_time) + ", " + std::to_string(1) + ", END IO\n";
-            curr_time += 1;
-  
+            execution += std::to_string(curr_time) + ", "  + std::to_string(ISR_TIME)  + ", END_IO: calling device driver\n"; 
+            curr_time += ISR_TIME;
 
+            execution += std::to_string(curr_time) + ", "  + std::to_string(ISR_TIME)  + ", transfering data\n"; 
+            curr_time += ISR_TIME;
+            if ((delays[duration_intr] - ISR_TIME*2 - IRET_TIME) >= 0){
+                execution += std::to_string(curr_time) + ", "  + std::to_string(delays[duration_intr -1] - ISR_TIME*2 - IRET_TIME)  + ", checking for errors\n"; 
+                curr_time += delays[duration_intr] - ISR_TIME*2 - IRET_TIME;
+            }
+            execution += std::to_string(curr_time) + ", "  + std::to_string(IRET_TIME)  + ",  IRET \n"; 
+            curr_time += IRET_TIME;
         }
 
 
