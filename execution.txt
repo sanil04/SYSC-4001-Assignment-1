@@ -1,419 +1,419 @@
 0, 51, CPU burst
 51, 1, switch to kernel mode
-52, 10, context saved
-62, 1, find vector 14 in memory position 0x001C
-63, 1, load address 0X0165 into the PC
-64, 40, SYSCAll: calling device driver
-104, 40, transfering data
-144, 375, checking for errors
-519, 1,  IRET 
-520, 39, CPU burst
-559, 40, END_IO: calling device driver
-599, 40, transfering data
-639, 555, checking for errors
-1014, 1,  IRET 
-1015, 72, CPU burst
-1087, 1, switch to kernel mode
-1088, 10, context saved
-1098, 1, find vector 19 in memory position 0x0026
-1099, 1, load address 0X0765 into the PC
-1100, 40, SYSCAll: calling device driver
-1140, 40, transfering data
-1180, 571, checking for errors
-1751, 1,  IRET 
-1752, 28, CPU burst
-1780, 40, END_IO: calling device driver
-1820, 40, transfering data
-1860, 42, checking for errors
-2431, 1,  IRET 
-2432, 32, CPU burst
-2464, 1, switch to kernel mode
-2465, 10, context saved
-2475, 1, find vector 7 in memory position 0x000E
-2476, 1, load address 0X00BD into the PC
-2477, 40, SYSCAll: calling device driver
-2517, 40, transfering data
-2557, 71, checking for errors
-2628, 1,  IRET 
-2629, 25, CPU burst
-2654, 40, END_IO: calling device driver
-2694, 40, transfering data
-2734, 184, checking for errors
-2805, 1,  IRET 
-2806, 11, CPU burst
-2817, 1, switch to kernel mode
-2818, 10, context saved
-2828, 1, find vector 16 in memory position 0x0020
-2829, 1, load address 0X02DF into the PC
-2830, 40, SYSCAll: calling device driver
-2870, 40, transfering data
-2910, 875, checking for errors
-3785, 1,  IRET 
-3786, 54, CPU burst
-3840, 40, END_IO: calling device driver
-3880, 40, transfering data
-3920, -13, checking for errors
-4795, 1,  IRET 
-4796, 96, CPU burst
-4892, 1, switch to kernel mode
-4893, 10, context saved
-4903, 1, find vector 8 in memory position 0x0010
-4904, 1, load address 0X06EF into the PC
-4905, 40, SYSCAll: calling device driver
-4945, 40, transfering data
-4985, 919, checking for errors
-5904, 1,  IRET 
-5905, 54, CPU burst
-5959, 40, END_IO: calling device driver
-5999, 40, transfering data
-6039, 71, checking for errors
-6958, 1,  IRET 
-6959, 77, CPU burst
-7036, 1, switch to kernel mode
-7037, 10, context saved
-7047, 1, find vector 11 in memory position 0x0016
-7048, 1, load address 0X01F8 into the PC
-7049, 40, SYSCAll: calling device driver
-7089, 40, transfering data
-7129, 442, checking for errors
-7571, 1,  IRET 
-7572, 33, CPU burst
-7605, 40, END_IO: calling device driver
-7645, 40, transfering data
-7685, 483, checking for errors
-8127, 1,  IRET 
-8128, 60, CPU burst
-8188, 1, switch to kernel mode
-8189, 10, context saved
-8199, 1, find vector 16 in memory position 0x0020
-8200, 1, load address 0X02DF into the PC
-8201, 40, SYSCAll: calling device driver
-8241, 40, transfering data
-8281, 875, checking for errors
-9156, 1,  IRET 
-9157, 21, CPU burst
-9178, 40, END_IO: calling device driver
-9218, 40, transfering data
-9258, -13, checking for errors
-10133, 1,  IRET 
-10134, 19, CPU burst
-10153, 1, switch to kernel mode
-10154, 10, context saved
-10164, 1, find vector 2 in memory position 0x0004
-10165, 1, load address 0X0695 into the PC
-10166, 40, SYSCAll: calling device driver
-10206, 40, transfering data
-10246, 69, checking for errors
-10315, 1,  IRET 
-10316, 26, CPU burst
-10342, 40, END_IO: calling device driver
-10382, 40, transfering data
-10422, 19, checking for errors
-10491, 1,  IRET 
-10492, 38, CPU burst
-10530, 1, switch to kernel mode
-10531, 10, context saved
-10541, 1, find vector 16 in memory position 0x0020
-10542, 1, load address 0X02DF into the PC
-10543, 40, SYSCAll: calling device driver
-10583, 40, transfering data
-10623, 875, checking for errors
-11498, 1,  IRET 
-11499, 28, CPU burst
-11527, 40, END_IO: calling device driver
-11567, 40, transfering data
-11607, -13, checking for errors
-12482, 1,  IRET 
-12483, 65, CPU burst
-12548, 1, switch to kernel mode
-12549, 10, context saved
-12559, 1, find vector 16 in memory position 0x0020
-12560, 1, load address 0X02DF into the PC
-12561, 40, SYSCAll: calling device driver
-12601, 40, transfering data
-12641, 875, checking for errors
-13516, 1,  IRET 
-13517, 88, CPU burst
-13605, 40, END_IO: calling device driver
-13645, 40, transfering data
-13685, -13, checking for errors
-14560, 1,  IRET 
-14561, 100, CPU burst
-14661, 1, switch to kernel mode
-14662, 10, context saved
-14672, 1, find vector 17 in memory position 0x0022
-14673, 1, load address 0X05B3 into the PC
-14674, 40, SYSCAll: calling device driver
-14714, 40, transfering data
-14754, 154, checking for errors
-14908, 1,  IRET 
-14909, 28, CPU burst
-14937, 40, END_IO: calling device driver
-14977, 40, transfering data
-15017, 875, checking for errors
-15171, 1,  IRET 
-15172, 25, CPU burst
-15197, 1, switch to kernel mode
-15198, 10, context saved
-15208, 1, find vector 1 in memory position 0x0002
-15209, 1, load address 0X029C into the PC
-15210, 40, SYSCAll: calling device driver
-15250, 40, transfering data
-15290, 19, checking for errors
-15309, 1,  IRET 
-15310, 21, CPU burst
-15331, 40, END_IO: calling device driver
-15371, 40, transfering data
-15411, 29, checking for errors
-15430, 1,  IRET 
-15431, 25, CPU burst
-15456, 1, switch to kernel mode
-15457, 10, context saved
-15467, 1, find vector 19 in memory position 0x0026
-15468, 1, load address 0X0765 into the PC
-15469, 40, SYSCAll: calling device driver
-15509, 40, transfering data
-15549, 571, checking for errors
-16120, 1,  IRET 
-16121, 34, CPU burst
-16155, 40, END_IO: calling device driver
-16195, 40, transfering data
-16235, 42, checking for errors
-16806, 1,  IRET 
-16807, 34, CPU burst
-16841, 1, switch to kernel mode
-16842, 10, context saved
-16852, 1, find vector 8 in memory position 0x0010
-16853, 1, load address 0X06EF into the PC
-16854, 40, SYSCAll: calling device driver
-16894, 40, transfering data
-16934, 919, checking for errors
-17853, 1,  IRET 
-17854, 59, CPU burst
-17913, 40, END_IO: calling device driver
-17953, 40, transfering data
-17993, 71, checking for errors
-18912, 1,  IRET 
-18913, 44, CPU burst
-18957, 1, switch to kernel mode
-18958, 10, context saved
-18968, 1, find vector 15 in memory position 0x001E
-18969, 1, load address 0X0584 into the PC
-18970, 40, SYSCAll: calling device driver
-19010, 40, transfering data
-19050, 1,  IRET 
-19051, 51, CPU burst
-19102, 40, END_IO: calling device driver
-19142, 40, transfering data
-19182, 1,  IRET 
-19183, 87, CPU burst
-19270, 1, switch to kernel mode
-19271, 10, context saved
-19281, 1, find vector 11 in memory position 0x0016
-19282, 1, load address 0X01F8 into the PC
-19283, 40, SYSCAll: calling device driver
-19323, 40, transfering data
-19363, 442, checking for errors
-19805, 1,  IRET 
-19806, 65, CPU burst
-19871, 40, END_IO: calling device driver
-19911, 40, transfering data
-19951, 483, checking for errors
-20393, 1,  IRET 
-20394, 48, CPU burst
-20442, 1, switch to kernel mode
-20443, 10, context saved
-20453, 1, find vector 16 in memory position 0x0020
-20454, 1, load address 0X02DF into the PC
-20455, 40, SYSCAll: calling device driver
-20495, 40, transfering data
-20535, 875, checking for errors
-21410, 1,  IRET 
-21411, 51, CPU burst
-21462, 40, END_IO: calling device driver
-21502, 40, transfering data
-21542, -13, checking for errors
-22417, 1,  IRET 
-22418, 37, CPU burst
-22455, 1, switch to kernel mode
-22456, 10, context saved
-22466, 1, find vector 1 in memory position 0x0002
-22467, 1, load address 0X029C into the PC
-22468, 40, SYSCAll: calling device driver
-22508, 40, transfering data
-22548, 19, checking for errors
-22567, 1,  IRET 
-22568, 18, CPU burst
-22586, 40, END_IO: calling device driver
-22626, 40, transfering data
-22666, 29, checking for errors
-22685, 1,  IRET 
-22686, 11, CPU burst
-22697, 1, switch to kernel mode
-22698, 10, context saved
-22708, 1, find vector 2 in memory position 0x0004
-22709, 1, load address 0X0695 into the PC
-22710, 40, SYSCAll: calling device driver
-22750, 40, transfering data
-22790, 69, checking for errors
-22859, 1,  IRET 
-22860, 46, CPU burst
-22906, 40, END_IO: calling device driver
-22946, 40, transfering data
-22986, 19, checking for errors
-23055, 1,  IRET 
-23056, 33, CPU burst
-23089, 1, switch to kernel mode
-23090, 10, context saved
-23100, 1, find vector 12 in memory position 0x0018
-23101, 1, load address 0X03B9 into the PC
-23102, 40, SYSCAll: calling device driver
-23142, 40, transfering data
-23182, 64, checking for errors
-23246, 1,  IRET 
-23247, 75, CPU burst
-23322, 40, END_IO: calling device driver
-23362, 40, transfering data
-23402, 442, checking for errors
-23466, 1,  IRET 
-23467, 88, CPU burst
-23555, 1, switch to kernel mode
-23556, 10, context saved
-23566, 1, find vector 18 in memory position 0x0024
-23567, 1, load address 0X060A into the PC
-23568, 40, SYSCAll: calling device driver
-23608, 40, transfering data
-23648, 42, checking for errors
-23690, 1,  IRET 
-23691, 29, CPU burst
-23720, 40, END_IO: calling device driver
-23760, 40, transfering data
-23800, 154, checking for errors
-23842, 1,  IRET 
-23843, 28, CPU burst
-23871, 1, switch to kernel mode
-23872, 10, context saved
-23882, 1, find vector 1 in memory position 0x0002
-23883, 1, load address 0X029C into the PC
-23884, 40, SYSCAll: calling device driver
-23924, 40, transfering data
-23964, 19, checking for errors
-23983, 1,  IRET 
-23984, 69, CPU burst
-24053, 40, END_IO: calling device driver
-24093, 40, transfering data
-24133, 29, checking for errors
-24152, 1,  IRET 
-24153, 48, CPU burst
-24201, 1, switch to kernel mode
-24202, 10, context saved
-24212, 1, find vector 4 in memory position 0x0008
-24213, 1, load address 0X0292 into the PC
-24214, 40, SYSCAll: calling device driver
-24254, 40, transfering data
-24294, 169, checking for errors
-24463, 1,  IRET 
-24464, 36, CPU burst
-24500, 40, END_IO: calling device driver
-24540, 40, transfering data
-24580, 219, checking for errors
-24749, 1,  IRET 
-24750, 99, CPU burst
-24849, 1, switch to kernel mode
-24850, 10, context saved
-24860, 1, find vector 18 in memory position 0x0024
-24861, 1, load address 0X060A into the PC
-24862, 40, SYSCAll: calling device driver
-24902, 40, transfering data
-24942, 42, checking for errors
-24984, 1,  IRET 
-24985, 56, CPU burst
-25041, 40, END_IO: calling device driver
-25081, 40, transfering data
-25121, 154, checking for errors
-25163, 1,  IRET 
-25164, 61, CPU burst
-25225, 1, switch to kernel mode
-25226, 10, context saved
-25236, 1, find vector 16 in memory position 0x0020
-25237, 1, load address 0X02DF into the PC
-25238, 40, SYSCAll: calling device driver
-25278, 40, transfering data
-25318, 875, checking for errors
-26193, 1,  IRET 
-26194, 35, CPU burst
-26229, 40, END_IO: calling device driver
-26269, 40, transfering data
-26309, -13, checking for errors
-27184, 1,  IRET 
-27185, 54, CPU burst
-27239, 1, switch to kernel mode
-27240, 10, context saved
-27250, 1, find vector 10 in memory position 0x0014
-27251, 1, load address 0X07B0 into the PC
-27252, 40, SYSCAll: calling device driver
-27292, 40, transfering data
-27332, 483, checking for errors
-27815, 1,  IRET 
-27816, 83, CPU burst
-27899, 40, END_IO: calling device driver
-27939, 40, transfering data
-27979, 75, checking for errors
-28462, 1,  IRET 
-28463, 51, CPU burst
-28514, 1, switch to kernel mode
-28515, 10, context saved
-28525, 1, find vector 11 in memory position 0x0016
-28526, 1, load address 0X01F8 into the PC
-28527, 40, SYSCAll: calling device driver
-28567, 40, transfering data
-28607, 442, checking for errors
-29049, 1,  IRET 
-29050, 85, CPU burst
-29135, 40, END_IO: calling device driver
-29175, 40, transfering data
-29215, 483, checking for errors
-29657, 1,  IRET 
-29658, 48, CPU burst
-29706, 1, switch to kernel mode
-29707, 10, context saved
-29717, 1, find vector 6 in memory position 0x000C
-29718, 1, load address 0X0639 into the PC
-29719, 40, SYSCAll: calling device driver
-29759, 40, transfering data
-29799, 184, checking for errors
-29983, 1,  IRET 
-29984, 58, CPU burst
-30042, 40, END_IO: calling device driver
-30082, 40, transfering data
-30122, 130, checking for errors
-30306, 1,  IRET 
-30307, 21, CPU burst
-30328, 1, switch to kernel mode
-30329, 10, context saved
-30339, 1, find vector 5 in memory position 0x000A
-30340, 1, load address 0X048B into the PC
-30341, 40, SYSCAll: calling device driver
-30381, 40, transfering data
-30421, 130, checking for errors
-30551, 1,  IRET 
-30552, 62, CPU burst
-30614, 40, END_IO: calling device driver
-30654, 40, transfering data
-30694, 169, checking for errors
-30824, 1,  IRET 
-30825, 41, CPU burst
-30866, 1, switch to kernel mode
-30867, 10, context saved
-30877, 1, find vector 4 in memory position 0x0008
-30878, 1, load address 0X0292 into the PC
-30879, 40, SYSCAll: calling device driver
-30919, 40, transfering data
-30959, 169, checking for errors
-31128, 1,  IRET 
-31129, 48, CPU burst
-31177, 40, END_IO: calling device driver
-31217, 40, transfering data
-31257, 219, checking for errors
-31426, 1,  IRET 
-31427, 63, CPU burst
+52, 20, context saved
+72, 1, find vector 14 in memory position 0x001C
+73, 1, load address 0X0165 into the PC
+74, 40, SYSCALL: calling device driver
+114, 40, transfering data
+154, 375, checking for errors
+529, 1,  IRET 
+530, 39, CPU burst
+569, 40, END_IO: calling device driver
+609, 40, transfering data
+649, 375, checking for errors
+1024, 1,  IRET 
+1025, 72, CPU burst
+1097, 1, switch to kernel mode
+1098, 20, context saved
+1118, 1, find vector 19 in memory position 0x0026
+1119, 1, load address 0X0765 into the PC
+1120, 40, SYSCALL: calling device driver
+1160, 40, transfering data
+1200, 571, checking for errors
+1771, 1,  IRET 
+1772, 28, CPU burst
+1800, 40, END_IO: calling device driver
+1840, 40, transfering data
+1880, 571, checking for errors
+2451, 1,  IRET 
+2452, 32, CPU burst
+2484, 1, switch to kernel mode
+2485, 20, context saved
+2505, 1, find vector 7 in memory position 0x000E
+2506, 1, load address 0X00BD into the PC
+2507, 40, SYSCALL: calling device driver
+2547, 40, transfering data
+2587, 71, checking for errors
+2658, 1,  IRET 
+2659, 25, CPU burst
+2684, 40, END_IO: calling device driver
+2724, 40, transfering data
+2764, 71, checking for errors
+2835, 1,  IRET 
+2836, 11, CPU burst
+2847, 1, switch to kernel mode
+2848, 20, context saved
+2868, 1, find vector 16 in memory position 0x0020
+2869, 1, load address 0X02DF into the PC
+2870, 40, SYSCALL: calling device driver
+2910, 40, transfering data
+2950, 875, checking for errors
+3825, 1,  IRET 
+3826, 54, CPU burst
+3880, 40, END_IO: calling device driver
+3920, 40, transfering data
+3960, 875, checking for errors
+4835, 1,  IRET 
+4836, 96, CPU burst
+4932, 1, switch to kernel mode
+4933, 20, context saved
+4953, 1, find vector 8 in memory position 0x0010
+4954, 1, load address 0X06EF into the PC
+4955, 40, SYSCALL: calling device driver
+4995, 40, transfering data
+5035, 919, checking for errors
+5954, 1,  IRET 
+5955, 54, CPU burst
+6009, 40, END_IO: calling device driver
+6049, 40, transfering data
+6089, 919, checking for errors
+7008, 1,  IRET 
+7009, 77, CPU burst
+7086, 1, switch to kernel mode
+7087, 20, context saved
+7107, 1, find vector 11 in memory position 0x0016
+7108, 1, load address 0X01F8 into the PC
+7109, 40, SYSCALL: calling device driver
+7149, 40, transfering data
+7189, 442, checking for errors
+7631, 1,  IRET 
+7632, 33, CPU burst
+7665, 40, END_IO: calling device driver
+7705, 40, transfering data
+7745, 442, checking for errors
+8187, 1,  IRET 
+8188, 60, CPU burst
+8248, 1, switch to kernel mode
+8249, 20, context saved
+8269, 1, find vector 16 in memory position 0x0020
+8270, 1, load address 0X02DF into the PC
+8271, 40, SYSCALL: calling device driver
+8311, 40, transfering data
+8351, 875, checking for errors
+9226, 1,  IRET 
+9227, 21, CPU burst
+9248, 40, END_IO: calling device driver
+9288, 40, transfering data
+9328, 875, checking for errors
+10203, 1,  IRET 
+10204, 19, CPU burst
+10223, 1, switch to kernel mode
+10224, 20, context saved
+10244, 1, find vector 2 in memory position 0x0004
+10245, 1, load address 0X0695 into the PC
+10246, 40, SYSCALL: calling device driver
+10286, 40, transfering data
+10326, 69, checking for errors
+10395, 1,  IRET 
+10396, 26, CPU burst
+10422, 40, END_IO: calling device driver
+10462, 40, transfering data
+10502, 69, checking for errors
+10571, 1,  IRET 
+10572, 38, CPU burst
+10610, 1, switch to kernel mode
+10611, 20, context saved
+10631, 1, find vector 16 in memory position 0x0020
+10632, 1, load address 0X02DF into the PC
+10633, 40, SYSCALL: calling device driver
+10673, 40, transfering data
+10713, 875, checking for errors
+11588, 1,  IRET 
+11589, 28, CPU burst
+11617, 40, END_IO: calling device driver
+11657, 40, transfering data
+11697, 875, checking for errors
+12572, 1,  IRET 
+12573, 65, CPU burst
+12638, 1, switch to kernel mode
+12639, 20, context saved
+12659, 1, find vector 16 in memory position 0x0020
+12660, 1, load address 0X02DF into the PC
+12661, 40, SYSCALL: calling device driver
+12701, 40, transfering data
+12741, 875, checking for errors
+13616, 1,  IRET 
+13617, 88, CPU burst
+13705, 40, END_IO: calling device driver
+13745, 40, transfering data
+13785, 875, checking for errors
+14660, 1,  IRET 
+14661, 100, CPU burst
+14761, 1, switch to kernel mode
+14762, 20, context saved
+14782, 1, find vector 17 in memory position 0x0022
+14783, 1, load address 0X05B3 into the PC
+14784, 40, SYSCALL: calling device driver
+14824, 40, transfering data
+14864, 154, checking for errors
+15018, 1,  IRET 
+15019, 28, CPU burst
+15047, 40, END_IO: calling device driver
+15087, 40, transfering data
+15127, 154, checking for errors
+15281, 1,  IRET 
+15282, 25, CPU burst
+15307, 1, switch to kernel mode
+15308, 20, context saved
+15328, 1, find vector 1 in memory position 0x0002
+15329, 1, load address 0X029C into the PC
+15330, 40, SYSCALL: calling device driver
+15370, 40, transfering data
+15410, 19, checking for errors
+15429, 1,  IRET 
+15430, 21, CPU burst
+15451, 40, END_IO: calling device driver
+15491, 40, transfering data
+15531, 19, checking for errors
+15550, 1,  IRET 
+15551, 25, CPU burst
+15576, 1, switch to kernel mode
+15577, 20, context saved
+15597, 1, find vector 19 in memory position 0x0026
+15598, 1, load address 0X0765 into the PC
+15599, 40, SYSCALL: calling device driver
+15639, 40, transfering data
+15679, 571, checking for errors
+16250, 1,  IRET 
+16251, 34, CPU burst
+16285, 40, END_IO: calling device driver
+16325, 40, transfering data
+16365, 571, checking for errors
+16936, 1,  IRET 
+16937, 34, CPU burst
+16971, 1, switch to kernel mode
+16972, 20, context saved
+16992, 1, find vector 8 in memory position 0x0010
+16993, 1, load address 0X06EF into the PC
+16994, 40, SYSCALL: calling device driver
+17034, 40, transfering data
+17074, 919, checking for errors
+17993, 1,  IRET 
+17994, 59, CPU burst
+18053, 40, END_IO: calling device driver
+18093, 40, transfering data
+18133, 919, checking for errors
+19052, 1,  IRET 
+19053, 44, CPU burst
+19097, 1, switch to kernel mode
+19098, 20, context saved
+19118, 1, find vector 15 in memory position 0x001E
+19119, 1, load address 0X0584 into the PC
+19120, 40, SYSCALL: calling device driver
+19160, 40, transfering data
+19200, 1,  IRET 
+19201, 51, CPU burst
+19252, 40, END_IO: calling device driver
+19292, 40, transfering data
+19332, 1,  IRET 
+19333, 87, CPU burst
+19420, 1, switch to kernel mode
+19421, 20, context saved
+19441, 1, find vector 11 in memory position 0x0016
+19442, 1, load address 0X01F8 into the PC
+19443, 40, SYSCALL: calling device driver
+19483, 40, transfering data
+19523, 442, checking for errors
+19965, 1,  IRET 
+19966, 65, CPU burst
+20031, 40, END_IO: calling device driver
+20071, 40, transfering data
+20111, 442, checking for errors
+20553, 1,  IRET 
+20554, 48, CPU burst
+20602, 1, switch to kernel mode
+20603, 20, context saved
+20623, 1, find vector 16 in memory position 0x0020
+20624, 1, load address 0X02DF into the PC
+20625, 40, SYSCALL: calling device driver
+20665, 40, transfering data
+20705, 875, checking for errors
+21580, 1,  IRET 
+21581, 51, CPU burst
+21632, 40, END_IO: calling device driver
+21672, 40, transfering data
+21712, 875, checking for errors
+22587, 1,  IRET 
+22588, 37, CPU burst
+22625, 1, switch to kernel mode
+22626, 20, context saved
+22646, 1, find vector 1 in memory position 0x0002
+22647, 1, load address 0X029C into the PC
+22648, 40, SYSCALL: calling device driver
+22688, 40, transfering data
+22728, 19, checking for errors
+22747, 1,  IRET 
+22748, 18, CPU burst
+22766, 40, END_IO: calling device driver
+22806, 40, transfering data
+22846, 19, checking for errors
+22865, 1,  IRET 
+22866, 11, CPU burst
+22877, 1, switch to kernel mode
+22878, 20, context saved
+22898, 1, find vector 2 in memory position 0x0004
+22899, 1, load address 0X0695 into the PC
+22900, 40, SYSCALL: calling device driver
+22940, 40, transfering data
+22980, 69, checking for errors
+23049, 1,  IRET 
+23050, 46, CPU burst
+23096, 40, END_IO: calling device driver
+23136, 40, transfering data
+23176, 69, checking for errors
+23245, 1,  IRET 
+23246, 33, CPU burst
+23279, 1, switch to kernel mode
+23280, 20, context saved
+23300, 1, find vector 12 in memory position 0x0018
+23301, 1, load address 0X03B9 into the PC
+23302, 40, SYSCALL: calling device driver
+23342, 40, transfering data
+23382, 64, checking for errors
+23446, 1,  IRET 
+23447, 75, CPU burst
+23522, 40, END_IO: calling device driver
+23562, 40, transfering data
+23602, 64, checking for errors
+23666, 1,  IRET 
+23667, 88, CPU burst
+23755, 1, switch to kernel mode
+23756, 20, context saved
+23776, 1, find vector 18 in memory position 0x0024
+23777, 1, load address 0X060A into the PC
+23778, 40, SYSCALL: calling device driver
+23818, 40, transfering data
+23858, 42, checking for errors
+23900, 1,  IRET 
+23901, 29, CPU burst
+23930, 40, END_IO: calling device driver
+23970, 40, transfering data
+24010, 42, checking for errors
+24052, 1,  IRET 
+24053, 28, CPU burst
+24081, 1, switch to kernel mode
+24082, 20, context saved
+24102, 1, find vector 1 in memory position 0x0002
+24103, 1, load address 0X029C into the PC
+24104, 40, SYSCALL: calling device driver
+24144, 40, transfering data
+24184, 19, checking for errors
+24203, 1,  IRET 
+24204, 69, CPU burst
+24273, 40, END_IO: calling device driver
+24313, 40, transfering data
+24353, 19, checking for errors
+24372, 1,  IRET 
+24373, 48, CPU burst
+24421, 1, switch to kernel mode
+24422, 20, context saved
+24442, 1, find vector 4 in memory position 0x0008
+24443, 1, load address 0X0292 into the PC
+24444, 40, SYSCALL: calling device driver
+24484, 40, transfering data
+24524, 169, checking for errors
+24693, 1,  IRET 
+24694, 36, CPU burst
+24730, 40, END_IO: calling device driver
+24770, 40, transfering data
+24810, 169, checking for errors
+24979, 1,  IRET 
+24980, 99, CPU burst
+25079, 1, switch to kernel mode
+25080, 20, context saved
+25100, 1, find vector 18 in memory position 0x0024
+25101, 1, load address 0X060A into the PC
+25102, 40, SYSCALL: calling device driver
+25142, 40, transfering data
+25182, 42, checking for errors
+25224, 1,  IRET 
+25225, 56, CPU burst
+25281, 40, END_IO: calling device driver
+25321, 40, transfering data
+25361, 42, checking for errors
+25403, 1,  IRET 
+25404, 61, CPU burst
+25465, 1, switch to kernel mode
+25466, 20, context saved
+25486, 1, find vector 16 in memory position 0x0020
+25487, 1, load address 0X02DF into the PC
+25488, 40, SYSCALL: calling device driver
+25528, 40, transfering data
+25568, 875, checking for errors
+26443, 1,  IRET 
+26444, 35, CPU burst
+26479, 40, END_IO: calling device driver
+26519, 40, transfering data
+26559, 875, checking for errors
+27434, 1,  IRET 
+27435, 54, CPU burst
+27489, 1, switch to kernel mode
+27490, 20, context saved
+27510, 1, find vector 10 in memory position 0x0014
+27511, 1, load address 0X07B0 into the PC
+27512, 40, SYSCALL: calling device driver
+27552, 40, transfering data
+27592, 483, checking for errors
+28075, 1,  IRET 
+28076, 83, CPU burst
+28159, 40, END_IO: calling device driver
+28199, 40, transfering data
+28239, 483, checking for errors
+28722, 1,  IRET 
+28723, 51, CPU burst
+28774, 1, switch to kernel mode
+28775, 20, context saved
+28795, 1, find vector 11 in memory position 0x0016
+28796, 1, load address 0X01F8 into the PC
+28797, 40, SYSCALL: calling device driver
+28837, 40, transfering data
+28877, 442, checking for errors
+29319, 1,  IRET 
+29320, 85, CPU burst
+29405, 40, END_IO: calling device driver
+29445, 40, transfering data
+29485, 442, checking for errors
+29927, 1,  IRET 
+29928, 48, CPU burst
+29976, 1, switch to kernel mode
+29977, 20, context saved
+29997, 1, find vector 6 in memory position 0x000C
+29998, 1, load address 0X0639 into the PC
+29999, 40, SYSCALL: calling device driver
+30039, 40, transfering data
+30079, 184, checking for errors
+30263, 1,  IRET 
+30264, 58, CPU burst
+30322, 40, END_IO: calling device driver
+30362, 40, transfering data
+30402, 184, checking for errors
+30586, 1,  IRET 
+30587, 21, CPU burst
+30608, 1, switch to kernel mode
+30609, 20, context saved
+30629, 1, find vector 5 in memory position 0x000A
+30630, 1, load address 0X048B into the PC
+30631, 40, SYSCALL: calling device driver
+30671, 40, transfering data
+30711, 130, checking for errors
+30841, 1,  IRET 
+30842, 62, CPU burst
+30904, 40, END_IO: calling device driver
+30944, 40, transfering data
+30984, 130, checking for errors
+31114, 1,  IRET 
+31115, 41, CPU burst
+31156, 1, switch to kernel mode
+31157, 20, context saved
+31177, 1, find vector 4 in memory position 0x0008
+31178, 1, load address 0X0292 into the PC
+31179, 40, SYSCALL: calling device driver
+31219, 40, transfering data
+31259, 169, checking for errors
+31428, 1,  IRET 
+31429, 48, CPU burst
+31477, 40, END_IO: calling device driver
+31517, 40, transfering data
+31557, 169, checking for errors
+31726, 1,  IRET 
+31727, 63, CPU burst

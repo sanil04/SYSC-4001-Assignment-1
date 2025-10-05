@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     std::string execution;  //!< string to accumulate the execution output
 
     /******************ADD YOUR VARIABLES HERE*************************/
-    const int CONTEXT = 10;
+    const int CONTEXT = 20;
     const int ISR_TIME = 40;
     const int IRET_TIME = 1;
     int curr_time = 0;
@@ -46,12 +46,12 @@ int main(int argc, char** argv) {
             execution += execution_hist;
             curr_time = time;
 
-            execution += std::to_string(curr_time) + ", "  + std::to_string(ISR_TIME)  + ", SYSCAll: calling device driver\n"; 
+            execution += std::to_string(curr_time) + ", "  + std::to_string(ISR_TIME)  + ", SYSCALL: calling device driver\n"; 
             curr_time += ISR_TIME;
 
             execution += std::to_string(curr_time) + ", "  + std::to_string(ISR_TIME)  + ", transfering data\n"; 
             curr_time += ISR_TIME;
-            if ((delays[duration_intr] - ISR_TIME*2 - IRET_TIME) >= 0){
+            if ((delays[duration_intr] - ISR_TIME*2 - IRET_TIME) > 0){
                 execution += std::to_string(curr_time) + ", "  + std::to_string(delays[duration_intr] - ISR_TIME*2 - IRET_TIME)  + ", checking for errors\n"; 
                 curr_time += delays[duration_intr] - ISR_TIME*2 - IRET_TIME;
             }
@@ -67,8 +67,8 @@ int main(int argc, char** argv) {
 
             execution += std::to_string(curr_time) + ", "  + std::to_string(ISR_TIME)  + ", transfering data\n"; 
             curr_time += ISR_TIME;
-            if ((delays[duration_intr] - ISR_TIME*2 - IRET_TIME) >= 0){
-                execution += std::to_string(curr_time) + ", "  + std::to_string(delays[duration_intr -1] - ISR_TIME*2 - IRET_TIME)  + ", checking for errors\n"; 
+            if ((delays[duration_intr] - ISR_TIME*2 - IRET_TIME) > 0){
+                execution += std::to_string(curr_time) + ", "  + std::to_string(delays[duration_intr] - ISR_TIME*2 - IRET_TIME)  + ", checking for errors\n"; 
                 curr_time += delays[duration_intr] - ISR_TIME*2 - IRET_TIME;
             }
             execution += std::to_string(curr_time) + ", "  + std::to_string(IRET_TIME)  + ",  IRET \n"; 
