@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     std::string execution;  //!< string to accumulate the execution output
 
     /******************ADD YOUR VARIABLES HERE*************************/
-    const int CONTEXT = 20;
+    const int CONTEXT = 10;
     const int ISR_TIME = 40;
     const int IRET_TIME = 1;
     int curr_time = 0;
